@@ -1,0 +1,14 @@
+dado_id,forma_dado,service,num_caras
+Dado_Database,d10,DynamoDB,3
+Dado_Database,d10,RDS,2
+Dado_Database,d10,Aurora,1
+Dado_Database,d10,ElastiCache,1
+Dado_Database,d10,ApiGateway,2
+Dado_Database,d10,CloudFront,1
+Dado_Integration,d6,SQS,4
+Dado_Integration,d6,ALB,2
+Dado_Compute,d10,Lambda,5
+Dado_Compute,d10,EC2,3
+Dado_Compute,d10,EKS,1
+Dado_Compute,d10,ECS,1
+Dado_Storage,d1,S3,1

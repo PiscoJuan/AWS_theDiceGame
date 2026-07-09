@@ -1,0 +1,14 @@
+dado_id,service,prob_continua,num_caras_100,prob_fisica_100
+Dado_Compute,Lambda,0.468,47,0.47
+Dado_Compute,EC2,0.2991,30,0.3
+Dado_Compute,EKS,0.1279,13,0.13
+Dado_Compute,ECS,0.105,10,0.1
+Dado_Storage,S3,1.0,100,1.0
+Dado_Integration,SQS,0.6768,68,0.68
+Dado_Integration,ALB,0.3232,32,0.32
+Dado_Database,DynamoDB,0.2977,30,0.3
+Dado_Database,RDS,0.1802,18,0.18
+Dado_Database,Aurora,0.0966,9,0.09
+Dado_Database,ElastiCache,0.0809,8,0.08
+Dado_Database,ApiGateway,0.2376,24,0.24
+Dado_Database,CloudFront,0.107,11,0.11
