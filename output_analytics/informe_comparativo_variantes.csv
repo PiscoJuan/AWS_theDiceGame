@@ -1,0 +1,7 @@
+variante,n_dados,servicios_cubiertos,arquitecturas_unicas_1000,combo_mas_comun,pct_mas_comun,combo_menos_comun,pct_menos_comun,tiradas_con_repetidos,tiradas_incompatibles
+V3 - Original,3,13,69,DynamoDB | Lambda | S3,10.8,Aurora | ECS | SQS,0.1,0,0
+V3 - Mejorado (split dinamico + fusion continua),3,13,67,DynamoDB | Lambda | S3,9.6,ALB | ApiGateway | ECS,0.1,0,0
+Centralidad - Original,6,10,16,ApiGateway | DynamoDB | EKS | Lambda | S3 | SQS,13.4,ApiGateway | EC2 | OpenSearch | RDS | S3 | StepFunctions,2.2,0,0
+Centralidad - Cajon de sastre,7,13,48,ApiGateway | DynamoDB | EKS | Lambda | S3 | SQS | SageMaker,4.8,ApiGateway | EC2 | OpenSearch | RDS | S3 | SageMaker | StepFunctions,0.6,0,0
+Variaciones - Original,3,6,6,EC2 | Lambda | S3,35.4,EKS | RDS | S3,4.6,0,0
+Variaciones - Integrador multi-candidato,3,6,6,EC2 | Lambda | S3,37.1,EKS | RDS | S3,4.4,0,0

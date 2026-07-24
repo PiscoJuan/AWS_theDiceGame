@@ -1,0 +1,7 @@
+servicio_a,servicio_b,compatible,peso_coocurrencia,prob_b_dado_a,prob_a_dado_b,overlap_coefficient
+Lambda,DynamoDB,true,92,0.449,0.807,0.807
+S3,Lambda,true,144,0.623,0.702,0.702
+S3,DynamoDB,true,76,0.329,0.667,0.667
+S3,EC2,true,86,0.372,0.656,0.656
+Lambda,EC2,true,63,0.307,0.481,0.481
+EC2,DynamoDB,true,32,0.244,0.281,0.281
