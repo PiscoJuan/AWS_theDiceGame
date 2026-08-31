@@ -1,0 +1,2 @@
+variante,n_dados,n_dados_extra_logrados,servicios_cubiertos,servicios_toxicos_centrales_detectados,servicios_toxicos_centrales_incluidos,arquitecturas_unicas_1000,combo_mas_comun,pct_mas_comun,combo_menos_comun,pct_menos_comun,tiradas_con_repetidos,tiradas_incompatibles
+V4 - Centralidad + Extra + Toxicos (con_toxicos),5,0,13,2,true,67,ApiGateway | DynamoDB | Lambda | S3 | SQS,9.3,ALB | CloudWatch | EKS | ElastiCache | S3,0.1,0,0

@@ -1,0 +1,14 @@
+dado_id,forma_dado,service,num_caras,prob_fisica
+Dado_Compute,d12,Lambda,6,0.5
+Dado_Compute,d12,EC2,4,0.3333
+Dado_Compute,d12,EKS,1,0.0833
+Dado_Compute,d12,ECS,1,0.0833
+Dado_Storage,d6,S3,6,1.0
+Dado_Database,d6,DynamoDB,3,0.5
+Dado_Database,d6,RDS,2,0.3333
+Dado_Database,d6,ElastiCache,1,0.1667
+Dado_Networking,d12,ApiGateway,7,0.5833
+Dado_Networking,d12,CloudFront,3,0.25
+Dado_Networking,d12,ALB,2,0.1667
+Dado_Integration,d6,SQS,4,0.6667
+Dado_Integration,d6,CloudWatch,2,0.3333
